@@ -3,7 +3,6 @@ Tonoi
 =====
 
 
-
 Overview
 --------
 
@@ -35,7 +34,7 @@ Overview
 Introduction
 ------------
 Tonoi is a playable implementation of the classsical mathematical game called `Towers of Hanoi`_. It is a 
-console based implementation that uses `ANSI Escape Sequences`_ for implementing its own Textual User Interface(TUI) library. only stdlib is used in this game.
+console based implementation that uses `ANSI Escape Sequences`_ for implementing its own Textual User Interface(TUI) library.The game is responsive and only stdlib is used in this game.
 
 Motivation
 ----------
@@ -68,10 +67,10 @@ You may install the game from Pypi also:
 
 Compiled Binaries
 ~~~~~~~~~~~~~~~~~
-x86_64 Binaries are compiled for Windows, for users not having python installed, using `Nuitka`_. see the Releases page for more info.
+x86_64 Binaries are compiled for Windows, for users not having python installed, using `Nuitka`_. you can `download`_ the latest release from Releases Page.
 
 **Note**: Since the game uses ANSI Escape Sequences, any terminal that supports it will run the game. Meanwhile
-the opposite is also true.
+the opposite is also true. also please note that even though tonoi supports the default windows terminal cmd.exe for systems that have "Windows Anniversary" update installed, it is still a better experience if you run it in `Windows Terminal`_.
 
 How to Play
 -----------
@@ -213,4 +212,6 @@ This project is Licensed under GNU GPLV3 and can be distributed with later versi
 .. _`ANSI Escape Sequences`: https://en.wikipedia.org/wiki/ANSI_escape_code
 .. _`Computerphile`: https://www.youtube.com/watch?v=8lhxIOAfDss
 .. _`Nuitka`: https://github.com/Nuitka/Nuitka
+.. _`download`: https://github.com/Justaus3r/tonoi/releases/download/v0.2.0/tonoi_windows_x86_64.zip
+.. _`Windows Terminal`: https://github.com/microsoft/terminal
 .. _`Zip`: https://github.com/Justaus3r/tonoi/archive/refs/heads/Master.zip
