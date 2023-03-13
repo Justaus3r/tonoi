@@ -14,6 +14,7 @@ Overview
     - `Compiled Binaries`_
 - `How to Play`_
     - `Overview of the game`_
+    -  `Changing modes`_
     - `Registering a player name`_
     - `Using the cheat`_
     - `Setting a time limit`_
@@ -90,6 +91,12 @@ actions. for example one can use the "move" command to move a disk from source t
 tower/rod.i.e: "move 1 2" will move a disk from tower 1 to tower 2. The rules of the orignal game still apply.
 one cannot place a smaller disk onto a bigger one, doing so will deduct a life(not in orignal game). this 
 behaviour, however can be disabled as mentioned below.
+
+Changing modes
+~~~~~~~~~~~~~~
+The game has two modes, the command-line mode: under which no terminal graphiics are drawn. and the graphics mode: a responsive tui is drawn to the screen. you can 
+use the "toggle-mode <mode>" command to change it. more info is provided in "list-commands" command. if you wish to use characters in ASCII charset for printing
+components, then use "--ascii" at the system commandline.
 
 Registering a player name
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -199,6 +206,7 @@ Todos
 - Use sockets for playing multiplayer
 - Do BugFixes
 - More Features?
+- Fix this README(i know its bad)
 
 Future Updates
 --------------
