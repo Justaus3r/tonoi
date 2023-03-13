@@ -136,18 +136,33 @@ Much more is available in the game. use "list-commands" command to list all the 
 Tonoi Configuration
 -------------------
 Tonoi has a custom Markup language called "Konf" for configuration.it is used for storing both player game-data
-and configuration for tonoi. Most of the configuration that is available at commandline can be specified in the configuration file.
+and configuration for tonoi. Most of the configuration(specifically the one's mentioned below) that is available at commandline can be specified in the configuration file.
+::
+
+    " custom player config
+    <- END @meta
+
+    :: START -> tonoi_config
+    render_ascii = True
+    disk_capacity = 8
+    interface_type = graphics
+    " Always set this to false since
+    " debugger isn't complete and not available
+    debug = False
+    <- END tonoi_config
+
 
 Implementation Details
 ~~~~~~~~~~~~~~~~~~~~~~
 Konf uses custom constructs called "Sections" and "Blocks" for organizing the datum. Sections live in higher 
-hirerchy than Blocks.There may an arbitrary amount of Sections in a single Konf file.A Section may have an 
+hierarchy than Blocks.There may an arbitrary amount of Sections in a single Konf file.A Section may have an 
 arbitrary amount of Blocks, but these Blocks may not be nested.There is a special Section called the "Meta" 
 section which can be used to store states that are related to the Konf source file or are independent of 
 Sections. It is the first Section that is parsed by the parser. The Special Meta Section variable "expression_delimiter" is used for modifying the assignment delimiter, which by default is "=". For example one may do 
 something like:
 ::
 
+    " Use " for comments
     some_another_var=some_val
     expression_delimiter=>>
     < END @meta
