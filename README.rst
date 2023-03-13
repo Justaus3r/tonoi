@@ -94,7 +94,7 @@ behaviour, however can be disabled as mentioned below.
 
 Changing modes
 ~~~~~~~~~~~~~~
-The game has two modes, the command-line mode: under which no terminal graphiics are drawn. and the graphics mode: a responsive tui is drawn to the screen. you can 
+The game has two modes, the command-line mode: under which no terminal graphics are drawn. and the graphics mode: a responsive tui is drawn to the screen. you can 
 use the "toggle-mode <mode>" command to change it. more info is provided in "list-commands" command. if you wish to use characters in ASCII charset for printing
 components, then use "--ascii" at the system commandline.
 
