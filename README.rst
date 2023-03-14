@@ -2,6 +2,10 @@
 Tonoi
 =====
 
+|tonoi-screenshot|
+
+.. |tonoi-screenshot| image:: https://raw.githubusercontent.com/Justaus3r/tonoi/Master/assets/tonoi.png
+                    :alt: Screenshot
 
 Overview
 --------
