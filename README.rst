@@ -68,7 +68,8 @@ You may install the game from Pypi also:
 
 Compiled Binaries
 ~~~~~~~~~~~~~~~~~
-x86_64 Binaries are compiled for Windows, for users not having python installed, using `Nuitka`_. you can `download`_ the latest release from Releases Page.
+x86_64 Binaries are compiled for Windows, for users not having python installed, using `Nuitka`_. you can `download`_ the latest release from Releases Page. Though not necessayry, after downloading the zip, first time runners should run "tonoi.exe" from within cmd. As they will probably have to enable
+ANSI support from registry editor and the game provides the command for that.
 
 **Note**: Since the game uses ANSI Escape Sequences, any terminal that supports it will run the game. Meanwhile
 the opposite is also true. also please note that even though tonoi supports the default windows terminal cmd.exe for systems that have "Windows Anniversary" update installed, it is still a better experience if you run it in `Windows Terminal`_.
