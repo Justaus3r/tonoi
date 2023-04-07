@@ -202,7 +202,7 @@ There is a minimal syntax file at "syntax/konf.vim" provided for vim/nvim users 
 
 Issues
 ~~~~~~
-There are two known issue at the time. First is after changing the terminal size, the cursor goes the right-end
+There is a single known issue at the time. First is after changing the terminal size, the cursor goes the right-end
 of the terminal.give an empty input(i.e: enter) to move it after the prompt. Don't know why this happens.Will hopefully be fixed someday. 
 
 Todos
