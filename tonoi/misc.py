@@ -45,7 +45,7 @@ except ImportError:
 
 class Misc:
     util_name: str = "tonoi"
-    util_version: str = "0.2.0"
+    util_version: str = "0.2.1"
     util_usage: str = "{} [options]".format(util_name)
     util_description: str = "A playable implementation of towers of hanoi"
     util_epilog: str = """Notes:
