@@ -871,9 +871,14 @@ You can do the following things:
             do_debug = True
             sys.argv.remove(debug_arg)
         elif debug_arg in sys.argv and idx in range(2, 4):
-            delay_time = int(sys.argv[sys.argv.index(debug_arg) + 1])
-            sys.argv.remove(str(delay_time))
-            sys.argv.remove(debug_arg)
+            try:
+                delay_time = int(sys.argv[sys.argv.index(debug_arg) + 1])
+            except IndexError:
+                print("--delay-time expects an integer argument")
+                sys.exit(1)
+            else:
+                sys.argv.remove(str(delay_time))
+                sys.argv.remove(debug_arg)
     main = inject_debugger(absorbed_obj=delay_time, dump_debug=do_debug)(main_func)
     main(sys.argv[1:])
 
