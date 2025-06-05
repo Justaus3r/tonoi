@@ -539,14 +539,7 @@ class Tonoi:
 
     def yo_mama_jokes(self) -> str:
         yo_mama_joke_list: List[str] = [
-            "Yo mama's such a cold bitch, \nher tits give soft serve ice cream",
-            "Yo mama's so easy that when she heard Santa Claus \nsay Ho Ho Ho she thought she was getting \nit three times",
-            "Yo mama sucks so much, a black hole would be embarrased",
-            "Yo mama sucks so much dick, \nher lips went double platinum",
-            "Yo mama so stupid she put cat-food \ndown her pants to feed her pussy",
-            "Yo mama so fat that your dad has to have a 'heavy machinary' \nlicense to have sex",
-            "Yo mama so bad at sex, \nthe only kind of head she gives is severed",
-            "Yo mama reminds me of \na toilet, fat, white, and smells like shit",
+            "No yo mama jokes for you" 
         ]
         return random.choice(yo_mama_joke_list)
 
