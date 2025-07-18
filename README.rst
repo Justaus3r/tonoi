@@ -233,7 +233,7 @@ The codebase is kinda messy, but contributions are still welcomed. code formatti
 
 License
 -------
-This project is Licensed under GNU GPLV3 and can be distributed with later versions.
+This project is Licensed under "Apache NON-AI License, Version 2.0".
 
 
 .. _`Towers of Hanoi`: https://en.wikipedia.org/wiki/Tower_of_Hanoi
